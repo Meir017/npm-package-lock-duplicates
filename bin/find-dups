@@ -2,11 +2,11 @@
 
 let [, , projectPath] = process.argv;
 
-const { findDupsFromNodeModules } = require('.');
+const { findDupsFromNodeModules } = require('../index');
 const fs = require('fs');
 const path = require('path');
 
-if(!projectPath) {
+if(!projectPath || projectPath === './') {
     projectPath = process.cwd();
 }
 
