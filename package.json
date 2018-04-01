@@ -9,5 +9,10 @@
     },
     "bin": {
         "find-dups": "bin/find-dups"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Meir017/npm-package-lock-duplicates.git"
     }
 }
